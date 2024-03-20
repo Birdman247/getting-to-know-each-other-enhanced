@@ -88,13 +88,20 @@ body, html {
 	document.getElementById("htl2").innerHTML = "I would also like to learn more about Computer Science, as it is a career I hear brought up often.";
 }
 </script>
-	
-<h3>Some fun tidbits about me"</h3>
-	<p><ul class="Square list">
-	<!-- List items -->
-	<li>I like biking around the trails near me.</li>
- 	<li>I enjoy cooking and baking.</li>
-  	<li>I play the saxophone.</li>
+
+<button type="button" onclick="hobbies()">My Hobbies!</button>
+
+<p id="hobby1"></p>
+<p id="hobby2"></p>
+<p id="hobby3"></p>
+
+<script>
+	function hobbies() {
+  	document.getElementById("hobby1").innerHTML = "I like biking around the trails near me.";
+	document.getElementById("hobby2").innerHTML = "I enjoy cooking and baking.";
+	document.getElementById("hobby3").innerHTML = "I play the saxophone.";
+}
+</script>
 <h3>Contact Me:</h3>	
 	<p><a href="mailto:alexandertbird@lewisu.edu">Email Zander Bird!</a></p>
 	<p>My Discord: Birdman247</p>
